@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_1"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="16dp">
+
+        <!--Greeting-->
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="35sp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <!--Submit Guess-->
+        <TextView
+            android:id="@+id/textViewPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Points: 100"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:paddingBottom="18dp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextGuess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:textColorHint="#9876D5"
+            android:hint="Your guess" />
+
+        <Button
+            android:id="@+id/buttonSubmitGuess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/white"
+            android:text="Let's try" />
+
+        <!--Get Support/ Clues-->
+        <Button
+            android:id="@+id/buttonGuessSupport"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#8C5AE6"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Clues" />
+
+        <!--New Game-->
+        <Button
+            android:id="@+id/buttonNew"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#009688"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="New Game" />
+
+        <!--Guess a Letter-->
+        <EditText
+            android:id="@+id/editTextLetter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="#673AB7"
+            android:textColorHint="#9876D5"
+            android:hint="Enter a letter" />
+
+        <Button
+            android:id="@+id/buttonSubmitLetter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:text="Let's Guess a Letter" />
+
+        <TextView
+            android:id="@+id/textViewLetterResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <!--Get Word Length-->
+        <Button
+            android:id="@+id/buttonWordLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:text="Get Word Length" />
+
+        <TextView
+            android:id="@+id/textViewWordLengthResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <!--Get the Tip-->
+        <Button
+            android:id="@+id/buttonGetTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:text="Get Tip" />
+
+        <TextView
+            android:id="@+id/textViewTipResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
