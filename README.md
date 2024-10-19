@@ -3,11 +3,11 @@
 An engaging word-guessing game app designed to entertain and challenge users. Built for Android devices running Android Oreo (8.0) or higher.
 
 <p align="middle">
-  <img src="Overview/pic1.png"/>
+  <img src="Overview/1.png"/>
  </p>
 
  <p align="middle">
-  <img src="Overview/pic2.png"/>
+  <img src="Overview/2.png"/>
  </p>
 
 ## Features
