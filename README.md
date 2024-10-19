@@ -10,6 +10,10 @@ An engaging word-guessing game app designed to entertain and challenge users. Bu
   <img src="Overview/2.png"/>
  </p>
 
+## Download App Overview
+
+You can download the app overview PDF [here](https://github.com/SASHTEK/MadWord/blob/main/Overview/MadWord_Overview.pdf).
+
 ## Features
 - Random word generation using an API
 - Points system to reward correct guesses and deduct for wrong ones
@@ -31,40 +35,42 @@ Follow these instructions to set up the project on your local machine.
 
 2. **Open the project in Android Studio:**
 
-- Select File > Open and navigate to the project directory.
+ - Select File > Open and navigate to the project directory.
 
-- Click OK to open the project.
+ - Click OK to open the project.
 
 3. **Build the project:**
 
-- Click on the Build menu and select Make Project.
+ - Click on the Build menu and select Make Project.
 
 4. **Run the app:**
 
-- Connect an Android device or start an emulator.
+ - Connect an Android device or start an emulator.
 
-- Click the Run button or select Run > Run 'app'.
+ - Click the Run button or select Run > Run 'app'.
 
 ### Usage
-- Start the game and begin guessing the word.
+ - Start the game and begin guessing the word.
 
-- Use the hint button if you get stuck (after 5 wrong guesses).
+ - Use the hint button if you get stuck (after 5 wrong guesses).
 
-- Earn points by guessing the word correctly as quickly as possible.
+ - Earn points by guessing the word correctly as quickly as possible.
 
 ### Contributions
-- Feel free to contribute to this project by:
+ - Feel free to contribute to this project by:
 
-- Forking the repository
+ - Forking the repository
 
-- Creating a branch (git checkout -b feature-branch)
+ - Creating a branch (git checkout -b feature-branch)
 
-- Committing your changes (git commit -m 'Add new feature')
+ - Committing your changes (git commit -m 'Add new feature')
 
-- Pushing to the branch (git push origin feature-branch)
+ - Pushing to the branch (git push origin feature-branch)
 
-- Creating a Pull Request
+ - Creating a Pull Request
 
 ### License
-- This project is licensed under the MIT License.
+ - This project is licensed under the MIT License.
 
+### Contact
+ - For any inquiries or feedback, reach out to [shashika.t@hotmail.com].
